@@ -6,7 +6,7 @@
   "description": "Adds much-needed HTTP auth enhancements to your browser.",
 
   "icons": {
-    "48": "icons/lock-red.svg"
+    "48": "icons/icon-red.svg"
   },
 
   "background": {
