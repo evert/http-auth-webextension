@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Auth Enhancer",
+  "name": "HTTP Auth Enhancer",
   "version": "0.1.0",
   "developer": {
     "name": "Evert Pot",
