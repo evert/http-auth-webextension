@@ -34,10 +34,11 @@ function init() {
           tabId: variables.tabId,
         }
       );
+      browser.pageAction.closePopup();
       browser.tabs.reload(variables.tabId, {
         bypassCache: true
       });
-      browser.pageAction.close();
+
 
     } catch (e) {
       console.log(e);
