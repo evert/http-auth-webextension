@@ -10,7 +10,7 @@
   },
 
   "background": {
-    "scripts": ["logout.js"]
+    "scripts": ["background.js"]
   },
   "page_action": {
     "browser_style": true,
