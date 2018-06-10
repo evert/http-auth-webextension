@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Auth Enhancer",
+  "version": "0.1",
+
+  "description": "Adds much-needed HTTP auth enhancements to your browser.",
+
+  "icons": {
+    "48": "icons/lock-red.svg"
+  },
+
+  "background": {
+    "scripts": ["logout.js"]
+  },
+  "page_action": {
+    "browser_style": true,
+    "default_icon" : "icons/lock-24px.svg"
+  },
+  "permissions" : [
+    "tabs",
+    "webRequest",
+    "http://*/*",
+    "https://*/*"
+  ]
+}
