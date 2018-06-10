@@ -14,11 +14,12 @@
   },
   "page_action": {
     "browser_style": true,
-    "default_icon" : "icons/lock-24px.svg"
+    "default_icon": "icons/icon-red.svg"
   },
   "permissions" : [
     "tabs",
     "webRequest",
+    "webRequestBlocking",
     "http://*/*",
     "https://*/*"
   ]
