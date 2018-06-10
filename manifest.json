@@ -2,6 +2,10 @@
   "manifest_version": 2,
   "name": "Auth Enhancer",
   "version": "0.1",
+  "developer": {
+    "name": "Evert Pot",
+    "url": "https://evertpot.com/"
+  },
 
   "description": "Adds much-needed HTTP auth enhancements to your browser.",
 
